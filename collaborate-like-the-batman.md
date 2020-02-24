@@ -1,5 +1,7 @@
 ---
 title: Learn to collaborate from the Batman
+urls:
+    - "collaborate-like-batman"
 published: false
 tags:
     - software
