@@ -65,6 +65,8 @@ Don't limit yourself in the things you read about. It's more appealing to read a
 ## Don't repeat the Batman's mistakes
 Being the Batman is pretty great. It makes you more useful to your team today and more prepared for changes tomorrow. You won't struggle to find work and will experience the delight of true productivity at work (aka [Flow](https://www.bbc.com/worklife/article/20190204-how-to-find-your-flow-state-to-be-peak-creative)). There's a danger however. The trauma of past experiences can lead us to over isolate ourselves. Bruce won't let anyone get close to him because his past relationships caused him pain. We can do the same thing at work by literally avoiding people or by showing contempt for their questions or contributions thereby discouraging collaboration. Just because we've worked on bad teams before doesn't mean that the solution is to reject teamwork. Learn to be independent but let people into the Batcave and share your knowledge.
 
+## The Batman shows discipline
+Will applying all of this advice mean that "teamwork" will no longer be an oxymoron at your workplace? No, probably not. It will however help you bring positive changes to said workplace and make you become someone that others want to work with. Most importantly, it will enable you to grow as a software developer regardless of where you work. In reality, we're very privileged to work in a field where we can independently drive our own professional development in whichever direction we want. The only true requirement is a small amount of persevering self-discipline.
 
 Here's what I hope you'll remember from this article:
 
