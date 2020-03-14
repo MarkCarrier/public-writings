@@ -1,13 +1,16 @@
 ---
-title: Collaborate like the Batman
+id: "baa77fa9-3c4f-4d79-85a9-f373507a53bc"
+title: Learn to Collaborate from the Batman
+author: "Mark Carrier"
+date: 2020-03-15
 urls:
     - "collaborate-like-the-batman"
-indexed: false
 tags:
     - Software
+indexed: false
+published: true
 ---
 
-# Learn to collaborate from the batman
 For some, "teamwork" is an oxymoron. The belief that collaboration and productivity go hand in hand is eroded by years spent within dysfunctional work environments. Companies create boundaries that prevent individuals from acting independently and so teamwork's reputation is tainted. I'm hoping to clear teamwork's name so you can use the words "productivity" and "collaboration" in the same sentence unironically. Being a productive software developer without collaboration is impossible. To illustrate, let's take a look at one supremely productive individual: the Batman.
 
 ## Team spirit lessons from the Batman
@@ -65,6 +68,8 @@ Don't limit yourself in the things you read about. It's more appealing to read a
 ## Don't repeat the Batman's mistakes
 Being the Batman is pretty great. It makes you more useful to your team today and more prepared for changes tomorrow. You won't struggle to find work and will experience the delight of true productivity at work (aka [Flow](https://www.bbc.com/worklife/article/20190204-how-to-find-your-flow-state-to-be-peak-creative)). There's a danger however. The trauma of past experiences can lead us to over isolate ourselves. Bruce won't let anyone get close to him because his past relationships caused him pain. We can do the same thing at work by literally avoiding people or by showing contempt for their questions or contributions thereby discouraging collaboration. Just because we've worked on bad teams before doesn't mean that the solution is to reject teamwork. Learn to be independent but let people into the Batcave and share your knowledge.
 
+## The Batman shows discipline
+Will applying all of this cause "teamwork" to cease being an oxymoron at your workplace? No, probably not. It will however help you bring positive changes to said workplace and make you become someone that others want to work with. Most importantly, it will enable you to grow as a software developer regardless of where you work. We're very privileged to work in a field where anyone can independently drive his or her own professional development in whichever direction they like. The only true requirement is a small amount of persevering self-discipline.
 
 Here's what I hope you'll remember from this article:
 
