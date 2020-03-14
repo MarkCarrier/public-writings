@@ -11,7 +11,7 @@ indexed: false
 published: true
 ---
 
-For some, "teamwork" is an oxymoron. The belief that collaboration and productivity go hand in hand is eroded by years spent within dysfunctional work environments. Companies create boundaries that prevent individuals from acting independently and so teamwork's reputation is tainted. I'm hoping to clear teamwork's name so you can use the words "productivity" and "collaboration" in the same sentence unironically. Being a productive software developer without collaboration is impossible. To illustrate, let's take a look at one supremely productive individual: the Batman.
+For some, "teamwork" is an oxymoron. The belief that collaboration and productivity go hand in hand has been eroded by years spent within dysfunctional work environments. Companies create boundaries that prevent individuals from acting independently and so teamwork's reputation is tainted. I'm hoping to clear teamwork's name so you can use the words "productivity" and "collaboration" in the same sentence without laughing. Being a productive software developer without collaboration is impossible. To illustrate, let's take a look at one supremely productive individual: the Batman.
 
 ## Team spirit lessons from the Batman
 Doesn't the batman work alone, you say?  He certainly seems to try:
