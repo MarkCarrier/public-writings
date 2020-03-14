@@ -1,14 +1,16 @@
 ---
-title: Collaborate like the Batman
+id: "baa77fa9-3c4f-4d79-85a9-f373507a53bc"
+title: Learn to Collaborate from the Batman
+author: "Mark Carrier"
+date: 2020-03-15
 urls:
     - "collaborate-like-the-batman"
-indexed: false
-date: 2020-03-14
 tags:
     - Software
+indexed: false
+published: true
 ---
 
-# Learn to collaborate from the batman
 For some, "teamwork" is an oxymoron. The belief that collaboration and productivity go hand in hand is eroded by years spent within dysfunctional work environments. Companies create boundaries that prevent individuals from acting independently and so teamwork's reputation is tainted. I'm hoping to clear teamwork's name so you can use the words "productivity" and "collaboration" in the same sentence unironically. Being a productive software developer without collaboration is impossible. To illustrate, let's take a look at one supremely productive individual: the Batman.
 
 ## Team spirit lessons from the Batman
