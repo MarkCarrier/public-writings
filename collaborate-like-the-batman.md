@@ -7,7 +7,7 @@ urls:
     - "collaborate-like-the-batman"
 tags:
     - Software
-indexed: false
+indexed: true
 published: true
 ---
 
