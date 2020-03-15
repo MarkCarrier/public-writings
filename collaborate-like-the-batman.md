@@ -40,7 +40,7 @@ Can you believe that all these great things are _free_?  It might seem obvious, 
 ## The hard part about being the Batman
 So does this mean that being the Batman is easy? The high costs of building software say otherwise. Having access to cool tools and frameworks isn't enough. Why not? Because having fancy gadgets does not imply knowing how to use them. To be the Batman, you have to learn to do your homework.
 
-!["Batman reading"](images/batman-reading.png "Batman reading")
+!["Batman reading"](images/batman-reading.jpg "Batman reading")
 <!-- https://chasemagnett.wordpress.com/2015/07/06/comicbook-coms-san-diego-comic-con-survival-guide/ -->
 
 The hardest part of software development is learning:
