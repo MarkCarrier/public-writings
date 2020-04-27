@@ -15,7 +15,7 @@ Frequency analysis is a technique used to decrypt messages that have been encode
 
 Messages encrypted this way can be cracked because every language uses some letters more frequently than others. For example, in most English texts, the letter "e" represents about 12% of all letter. This can allow an eavesdropper to deduce the letter mapping schema and decode the encrypted text.
 
-The typical frequency of each character can be evaluated using sample text from the target language. For example, the following English sample string "with four hundred miles of trail still between him and dawson" can be used to calculate the following character frequency distribution:
+The typical frequency of each character can be estimated using sample text from the target language. For example, the following English sample string "with four hundred miles of trail still between him and dawson" can be used to calculate the following character frequency distribution:
 
 ```
 " "  10 / 61 (16.39%)
@@ -38,7 +38,7 @@ The typical frequency of each character can be evaluated using sample text from 
 "b"   1 / 61 (1.64%)
 ```
 
-Such a distribution can be used to enable decryption of text encoded using a secret substitution schema assuming it was originally in the same language. This is achieved by analyzing the encoded text's character frequency distribution and finding the closest matches from the sample's distribution. 
+Such a distribution can be used to enable decryption of text encoded using a secret substitution schema in the same language. This is achieved by analyzing the encoded text's character frequency distribution and finding the closest matches from the sample's distribution. 
 
 For example, the following encoded text string "QMuagMsJgFavsKuaJsXuJaWhzaWsOu", can be used to calculate the following character frequency distribution:
 ```
@@ -59,18 +59,18 @@ For example, the following encoded text string "QMuagMsJgFavsKuaJsXuJaWhzaWsOu",
 "z"   1 / 30 (3.33%)
 ```
 
-For short texts, exact matches will be rare. The matching should be done as follows: characters from the encoded text's distribution should be sorted in decreasing order of frequency. In the case where two letters have the same frequency, they should be subsorted in increase order using their Unicode numeric value (quasi-alphabetical).  The same should be done with characters from the sample text's distribution. The above examples are sorted this way. Characters from the encoded text's distribution should then be matched one at a time start from the top of the list to the closest available candidate from the sample list. Characters should match 1-to-1. In the example case, the mapping would be as follows:
+For short texts, exact matches will be rare. The matching should be done as follows: characters from the encoded text's distribution should be sorted in decreasing order of frequency. In the case where two letters have the same frequency, they should be sub-sorted in increasing order using their Unicode numeric value (quasi-alphabetical).  The same should be done with characters from the sample text's distribution. The above examples are both already sorted this way. Characters from the encoded text's distribution should then be matched one at a time (starting from the top of the list) to the closest available candidate from the sample list. Characters should be mapped to only once. In the example case, the mapping would be as follows:
 
 ![frequency map](images/frequency_map.png)
 
-We can then use the mapping to decrypt the encoded string. For the above case, "QMuagMsJgFavsKuaJsXuJaWhzaWsOu" becomes "rli tledta mehi desid nfu neoi". Decryption accuracy will improve as the sample size and encoded text size grow.
+We can then use the mapping to decrypt the encoded string. For the above case, "QMuagMsJgFavsKuaJsXuJaWhzaWsOu" becomes "rli tledta mehi desid nfu neoi". Decryption accuracy will improve as the sample text and encoded text sizes grow.
 
 Write a function
 
 ```
     function solution(S,E);
 ```
-that, given a Unicode string **S** of length **M** representing sample text in an unknown language and a Unicode string **E** of length **N** representing text encoded using a simple substitution, returns a Unicode string representing the decoded text as defined using the above rules.
+that, given a Unicode string **S** of length **M** representing sample text in an unknown language and a Unicode string **E** of length **N** representing text encoded using a simple substitution, returns a Unicode string representing the decoded text as defined using the method outlined above.
 
 Write an efficient algorithm for the following assumptions:
 
