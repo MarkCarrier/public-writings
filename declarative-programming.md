@@ -8,7 +8,7 @@ urls:
 tags:
     - Software
 indexed: true
-published: false
+published: true
 ---
 
 # What is declarative programming?
@@ -43,7 +43,7 @@ fib n = fib (n-1) + fib (n-2)
 I expect the first version makes at least some sense to you:
 > Hello machine. While this condition is true I want you do this over and over again.
 
-The second version is devoid of sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
+The second version just "declares" things that are true. It's actually devoid of sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
 
 As much as some might try, no imperative language can actually pretend be truly functional/declarative since they calculate stuff that you ask for instead of stuff that's needed. In Haskell _everything_ is lazy evaluated.
 
@@ -55,4 +55,14 @@ The functional world's conviction is that programmers should **not** be the ones
 
 The most surprising part of all this is that declarative code isn't as abstract and unpractical as we might expect. Most of the imperative code we write could be expressed declaratively without giving our compilers any anxiety whatsoever. A good example of this is the `.map` function. map can be converted into a for loop very easily. Letting the compiler do it for us means that it can perform all kinds of optimizations (such as lazy evaluation). You can't do this when you program imperatively.
 
-As convincing as this might be to you (I hope), the sad truth is that we're far away from a world that allows us to take full advantage of functional programming's benefits. Our very machines are built with the expectation that you will write imperative code. Functional programming still has a lot to offer. Performance just _usually_ isn't one of them (yet).
+So, a revised definition of the two models could be as follows:
+
+**Imperative programming**
+> You tell your compiler things that you'd like it to pretend it will do.
+
+**Declarative programming**
+> You tell the compiler things that are true and let it figure out the best way to accomplish it.
+
+As software evolves, it's logical to expect new abstractions that allow programmers to focus more on problems and less on implementation. What's less intuitive is that is that there are  performance benefits in doing so.
+
+As convincing as all this might be to you (I hope), the sad truth is that we're far away from a world that allows us to take full advantage of functional programming. Our very machines are built with the expectation that you will write imperative code. Despite this, functional programming still has a lot to offer. Performance just _usually_ isn't one of the main benefits (yet).
