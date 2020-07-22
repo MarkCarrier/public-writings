@@ -7,8 +7,8 @@ urls:
     - "what-is-declarative-programming"
 tags:
     - Software
-indexed: false
-published: true
+indexed: true
+published: false
 ---
 
 # What is declarative programming?
