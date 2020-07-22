@@ -41,7 +41,7 @@ fib n = fib (n-1) + fib (n-2)
 I expect the first version makes at least some sense to you:
 > Hello machine. While this condition is true I want you do this over and over again.
 
-The second version just "declares" things that are true. It's actually devoid of sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
+The second version just "declares" things that are true. It's actually devoid of any true sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
 
 As much as some might try, no imperative language can actually pretend to be truly functional/declarative since they calculate stuff based on what you asked for instead of on what's needed. In Haskell _everything_ is lazy evaluated.
 
@@ -59,7 +59,7 @@ So, a revised definition of the two models could be as follows:
 > You tell your compiler things that you'd like it to pretend it will do.
 
 **Declarative programming**
-> You tell the compiler things that are true and let it figure out the best way to accomplish it.
+> You tell the compiler things that are true and let it figure out the best way to turn them into something practical.
 
 As software evolves, it's logical to expect new abstractions that allow programmers to focus more on problems and less on implementation. What's less intuitive is that is that there are  performance benefits in doing so.
 
