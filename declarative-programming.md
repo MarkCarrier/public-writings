@@ -10,8 +10,6 @@ tags:
 indexed: true
 published: true
 ---
-
-# What is declarative programming?
 You can find the definitions online pretty easily. It boils down to something like this:
 
 **Imperative programming**
