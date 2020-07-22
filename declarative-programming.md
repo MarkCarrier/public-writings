@@ -43,7 +43,7 @@ I expect the first version makes at least some sense to you:
 
 The second version just "declares" things that are true. It's actually devoid of any true sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
 
-In Haskell _everything_ is lazily evaluated. This means that you can tell it the truths that wants it to uphold without confusing it with how you think it should run the calculations.
+In Haskell _everything_ is lazily evaluated. This means that you can tell it the truths that you want it to uphold without confusing it with the order in which you think it should run the calculations (aka premature optimization).
 
 That's why the Haskell version can be so close to a mathematical definition. You just _declare_ 3 things that are true and the compiler will use those facts if and when it needs to.
 
