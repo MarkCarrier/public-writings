@@ -43,9 +43,9 @@ I expect the first version makes at least some sense to you:
 
 The second version just "declares" things that are true. It's actually devoid of sequencing. In a proper functional language, you can actually change the order of statements without affecting program output. You're just stating (declaring) some facts and letting the compiler worry about their relevance. That's why the Haskell version doesn't need a `stopAt` parameter. Haskell won't actually calculate anything unless it's needed. Something "higher up" will need to "pull" some values from these truths and the compiler will only calculate as many Fibonacci values as are needed. 
 
-As much as some might try, no imperative language can actually pretend be truly functional/declarative since they calculate stuff that you ask for instead of stuff that's needed. In Haskell _everything_ is lazy evaluated.
+As much as some might try, no imperative language can actually pretend to be truly functional/declarative since they calculate stuff based on what you asked for instead of on what's needed. In Haskell _everything_ is lazy evaluated.
 
-That's why the Haskell version can be so mathematically pure. You just needs to _declare_ 3 things that are true and the compiler will use those facts when (if) it needs to.
+That's why the Haskell version can be so mathematically pure. You just _declare_ 3 things that are true and the compiler will use those facts when (if) it needs to.
 
 You might think: well that's nice and all but it'll eventually need to become "real code" that the machine can actually execute. You're completely right. Declarative code isn't useful unless it's converted into imperative instructions for your processor.
 
