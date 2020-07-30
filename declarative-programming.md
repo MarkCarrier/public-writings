@@ -55,9 +55,9 @@ You might think: well that's nice and all but it'll eventually need to become "r
 The functional world's conviction is that programmers usually should **not** be the ones doing this. For the vast majority of software problems, they're right. There's essentially two really good reasons for removing the "how" from our code and focusing on the "what":
 
 1. As programmers, we can focus more on our clients' problems and less and technical details.
-2. We can give our compilers freedom to build imperative that will likely be better than our own.
+2. We can give our compilers freedom to create optimized imperative instructions that are likely be better than our own.
 
-You might think that placing this burden on compilers is complex and impractical but it isn't. It's actually quite simple.
+You could think that placing this burden on compilers is complex and impractical but it isn't. It's actually quite simple.
 
 Declarative statements can usually be converted into imperative instructions very easily. A good example of this is the `map` function. Say you wanted to get the length of each word in a sentence. The imperative version might look like this:
 
