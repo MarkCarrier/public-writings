@@ -52,10 +52,10 @@ The second version just "declares" things that are true (the "what" of the probl
 
 You might think: well that's nice and all but it'll eventually need to become "real code" that the machine can actually execute. You're completely right. Declarative code isn't useful unless it's converted into imperative instructions for your processor.
 
-The functional world's conviction is that programmers usually should **not** be the ones doing this. For the vast majority of software problems, they're right. There's essentially two really good reasons for removing the "how" from our code and focusing on the "what":
+The functional world's conviction is that programmers should **not** be the ones doing this. This is true for the vast majority of software problems. There's two really good reasons for removing the "how" from our code and focusing on the "what":
 
 1. As programmers, we can focus more on our clients' problems and less and technical details.
-2. We can give our compilers freedom to create optimized imperative instructions that are likely be better than our own.
+2. We can give our compilers freedom to create imperative instructions that are likely to be better than our own.
 
 You could think that placing this burden on compilers is complex and impractical but it isn't. It's actually quite simple.
 
