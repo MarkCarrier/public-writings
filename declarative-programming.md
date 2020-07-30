@@ -93,9 +93,9 @@ So, a revised definition of the two models could be as follows:
 > You tell your compiler things that it'll pretend to do because that's how you trained your brain to write code.
 
 **Declarative programming**
-> You tell your compiler things that are true and let it figure out the best way to turn it into something practical.
+> You tell your compiler things that are true and let it figure out the best way to turn it into something executable.
 
 ## Conclusion
 As software evolves, it's logical to expect new abstractions that allow programmers to focus more on problems and less on implementation details. In most cases we're willing to sacrifice lots of performance for these abstractions since programmers cost a lot more than computers. My prime motivation for learning [FP](https://en.wikipedia.org/wiki/Functional_programming "Functional Programming") and [FRP](https://en.wikipedia.org/wiki/Functional_reactive_programming "Functional Reactive Programming") is to improve my productivity. What's surprising is that declarative programming can potentially offer better performance than most of the imperative abstractions that are prevalent. Imperative programming using a high level language is essentially taking the worst of both worlds.
 
-I hope this convinces you of the value of researching and learning more about the different ways that you can use these not-so-easy concepts. Unfortunately we're far away from a world that allows us to take full advantage of all of functional programming benefits. Our very machines are built with the expectation that we will write imperative code. Despite this, functional programming still has [a lot to offer](https://stackoverflow.com/questions/128057/what-are-the-benefits-of-functional-programming). Performance just usually isn't the main benefit (yet).
+I hope this convinces you of the value of researching and learning more about the different ways that you can use these not-so-easy concepts. Unfortunately we're far away from a world that allows us to take full advantage of functional programming's benefits. Our very machines are built with the expectation that we will write imperative code. Despite this, functional programming still has [a lot to offer](https://stackoverflow.com/questions/128057/what-are-the-benefits-of-functional-programming). Performance just usually isn't the main benefit (yet).
