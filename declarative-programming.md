@@ -2,7 +2,7 @@
 id: "b00a4fcc-338d-450a-958c-d6a6b2f8ae52"
 title: What is declarative programming?
 author: "Mark Carrier"
-date: 2020-07-22
+date: 2020-07-30
 urls:
     - "what-is-declarative-programming"
 tags:
@@ -85,7 +85,7 @@ It's trivial for a compiler to turn this into a loop if it needs to. Most of the
 
 As beginners we might feel like declarative code is actually harder to read. There's a couple of reasons for this. First of all, more concise code means greater information density. With a little bit of practice we can get used to this. Once the training wheels are gone you'll never want to go back.
 
-The second reason is that we're used to thinking in terms of "the machine did this and then it did that". It is a nice mental model for helping us turn something abstract into something tangible. The problem with this approach is that it's deceptive. Unless you're programming in C or assembly the machine probably didn't do what you expect. Interpreted languages (Java, Python, JavaScript, C#, etc) are doing (all kinds of things)[https://dzone.com/articles/java-on-steroids-5-super-useful-jit-optimization-t] to turn our instructions into better instructions. _Even_ if you're writing C or assembly, the CPU's internals are interfering in all kinds of ways to make you **feel** like you're working with the Von Neumann architecture [despite the limitations of this model](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Mitigations).
+The second reason is that we're used to thinking in terms of "the machine did this and then it did that". It is a nice mental model for helping us turn something abstract into something tangible. The problem with this approach is that it's deceptive. Unless you're programming in C or assembly the machine probably didn't do what you expect. Interpreted languages (Java, Python, JavaScript, C#, etc) are doing [all kinds of things](https://dzone.com/articles/java-on-steroids-5-super-useful-jit-optimization-t) to turn our instructions into better instructions. _Even_ if you're writing C or assembly, the CPU's internals are interfering in all kinds of ways to make you **feel** like you're working with the Von Neumann architecture [despite the limitations of this model](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Mitigations).
 
 So, a revised definition of the two models could be as follows:
 
@@ -96,6 +96,6 @@ So, a revised definition of the two models could be as follows:
 > You tell your compiler things that are true and let it figure out the best way to turn it into something practical.
 
 ## Conclusion
-As software evolves, it's logical to expect new abstractions that allow programmers to focus more on problems and less on implementation details. In most cases we're willing to sacrifice lots of performance for these abstractions since programmers cost a lot more than computers. My prime motivation for learning [FP]("Functional Programming") and [FRP]("Functional Reactive Programming") is to improve my productivity. What's surprising is that declarative programming can potentially offer better performance than most of the imperative abstractions that are prevalent. Imperative programming using a high level language is essentially taking the worst of both worlds.
+As software evolves, it's logical to expect new abstractions that allow programmers to focus more on problems and less on implementation details. In most cases we're willing to sacrifice lots of performance for these abstractions since programmers cost a lot more than computers. My prime motivation for learning [FP](https://en.wikipedia.org/wiki/Functional_programming "Functional Programming") and [FRP](https://en.wikipedia.org/wiki/Functional_reactive_programming "Functional Reactive Programming") is to improve my productivity. What's surprising is that declarative programming can potentially offer better performance than most of the imperative abstractions that are prevalent. Imperative programming using a high level language is essentially taking the worst of both worlds.
 
 I hope this convinces you of the value of researching and learning more about the different ways that you can use these not-so-easy concepts. Unfortunately we're far away from a world that allows us to take full advantage of all of functional programming benefits. Our very machines are built with the expectation that we will write imperative code. Despite this, functional programming still has [a lot to offer](https://stackoverflow.com/questions/128057/what-are-the-benefits-of-functional-programming). Performance just usually isn't the main benefit (yet).
